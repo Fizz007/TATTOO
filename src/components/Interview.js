@@ -21,7 +21,7 @@ const Interview = () => {
       viewport={{ once: false, amount: 0.1 }}
       className='section bg-dark bg-interview bg-no-repeat bg-cover bg-center lg:h-[812px]'
     >
-      <div className='container mx-auto h-full'>
+      <div name='interveiw' className='container mx-auto h-full'>
         <div className='flex flex-col justify-center h-full'>
           <div className='flex flex-col items-start max-w-[880px]'>
             <motion.h3

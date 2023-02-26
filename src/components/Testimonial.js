@@ -20,7 +20,7 @@ export const Testimonial = () => {
       viewport={{ once: false, amount: 0.2 }}
       className='pb-[40px] pt-[40px] lg:pb-[160px] lg:pt-0'
     >
-      <div className='container mx-auto'>
+      <div  className='container mx-auto'>
         <Swiper>
           {testimonialData.map((slide, index) => {
             // destructure slide

@@ -7,6 +7,7 @@ import NavMobile from './NavMobile';
 import Socials from './Socials';
 // import icons
 import { TiThMenuOutline } from 'react-icons/ti';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   // destructure header data
@@ -25,11 +26,11 @@ const Header = () => {
         isActive ? 'h-[100px] lg:h-[110px] shadow-lg' : 'h-[120px] lg:h-[150px]'
       }  bg-white fixed left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}
     >
-      <div className='flex justify-between items-center h-full pl-[50px] pr-[60px]'>
+      <div className='flex justify-between items-center h-full pl-[50px] pr-[60px] cursor-pointer'>
         {/* logo */}
-        <a href='/'>
+        <Link to='hero'>
           <img className='w-[188px] h-[90px]' src={logo} alt='' />
-        </a>
+        </Link>
         {/* nav - initially is hidden - show on desktop*/}
         <div className='hidden xl:flex'>
           <Nav />

@@ -27,6 +27,7 @@ export const headerData = {
 
 export const navData = {
   items: [
+   
     { href: '/', name: 'Home' },
     { href: '/', name: 'About' },
     { href: '/', name: 'Gallery' },

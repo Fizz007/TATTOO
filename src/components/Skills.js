@@ -66,7 +66,7 @@ const Skills = () => {
       ref={ref}
       className='section font-primary'
     >
-      <div className='container mx-auto'>
+      <div name='testimonials' className='container mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between items-center gap-y-12'>
           <div className='w-[150px] lg:w-[275px] flex flex-col justify-center items-center gap-y-6'>
             <CircularProgressbar
