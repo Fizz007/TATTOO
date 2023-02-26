@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Copyright = () => {
+  const date = new Date().getFullYear();
   return (
     <div className='bg-dark py-6 border-t border-[#2B2B2B] text-[#DBDBDB]'>
       <div className='container mx-auto'>
@@ -17,7 +18,7 @@ const Copyright = () => {
           viewport={{ once: false, amount: 0 }}
           className='tracking-[0.02em] text-base'
         >
-          &copy; 2022
+          &copy; {date}
           <span className='font-semibold text-white'>The Void Tattoo.</span>
           All rights reserved.
         </motion.div>
