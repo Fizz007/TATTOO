@@ -86,7 +86,7 @@ const Contact = () => {
               />
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
-                type='text'
+                type='email'
                 name='email'
                 placeholder={form.email}
               />
