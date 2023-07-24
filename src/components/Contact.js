@@ -77,20 +77,23 @@ const Contact = () => {
             viewport={{ once: false, amount: 0.4 }}
             className='flex-1 xl:pl-[40px] flex justify-center items-center '
           >
-            <form className='flex flex-col gap-y-10 w-full'>
+            <form method='POST' action="https://getform.io/f/051ef478-4952-409e-aa5f-eef6664a1411" className='flex flex-col gap-y-10 w-full'>
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
                 type='text'
+                name='name'
                 placeholder={form.name}
               />
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4'
                 type='text'
+                name='email'
                 placeholder={form.email}
               />
               <input
                 className='border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4 xl:mb-[30px]'
                 type='text'
+                name='message'
                 placeholder={form.message}
               />
               <button className='self-start btn btn-sm btn-dark'>
